@@ -1,0 +1,17 @@
+{
+  "name": "tiny-bemjson",
+  "version": "1.0.0",
+  "description": "Tiny BEMJSON (SHRI-2019)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "fmt": "./node_modules/.bin/prettier *.js --no-config --write",
+    "build": "./node_modules/.bin/parcel build index.js",
+    "test": "./node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "parcel": "^1.12.3",
+    "prettier": "^1.18.2"
+  }
+}
