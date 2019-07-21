@@ -4,7 +4,7 @@ https://en.bem.info/technologies/classic/bemjson
 
 ## DISCLAIMER
 
-This tiny BEMJSON renderer is built **for educational purposes**. Read, learn, ask question (in this repo) and use this code as you like.
+This tiny BEMJSON renderer is built **for educational purposes**. Read, learn, ask questions (file an issue in this repo) and use this code as you like.
 
 Why? 👉https://github.com/yndx-shri-reviewer/task-1/blob/master/TEMPLATER.md
 
