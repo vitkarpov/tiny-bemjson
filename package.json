@@ -2,11 +2,12 @@
   "name": "tiny-bemjson",
   "version": "1.0.0",
   "description": "Tiny BEMJSON (SHRI-2019)",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
+  "author": "Viktor Karpov <viktor.s.karpov@gmail.com>",
   "scripts": {
     "fmt": "./node_modules/.bin/prettier *.js --no-config --write",
-    "build": "./node_modules/.bin/parcel build index.js",
+    "build": "./node_modules/.bin/parcel build index.js --target browser",
     "test": "./node_modules/.bin/jest"
   },
   "devDependencies": {
@@ -16,5 +17,8 @@
   },
   "repository": {
     "url": "https://github.com/vitkarpov/tiny-bemjson"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
